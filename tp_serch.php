@@ -17,7 +17,6 @@ function serchSeq(array $seq, array $ocu):int{
         return -1;
 
     $index = 0;
-    $verif = 0;
     foreach ($seq as $key => $value) {
         if($index === $countOcu )
             return $key - $index;
@@ -36,4 +35,4 @@ function search_pos_seq_all(array $seq, array $ocu){
     return new Search ($ocu, serchSeq($seq, $ocu));
 }
 
-var_dump(search_pos_seq_all([1,5,8,6,7,55,7,5,5], [7,5]));
+var_dump(search_pos_seq_all([1,5,8,6,7,55,7,5,5], [7,55]));
