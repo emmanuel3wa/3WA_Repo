@@ -2,7 +2,7 @@
 
 class Queue implements ArrayAccess {
 
-public int $i = 0;
+private int $i = 0;
 
 public function __construct(
     private array $container = [
