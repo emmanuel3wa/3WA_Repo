@@ -25,7 +25,7 @@ class ManageNews{
    public function __construct(Log $log, string $title)
    {
         $log->addLog(date(DATE_RFC2822));
-       $this->$title = $title;
+        $this->$title = $title;
    }
 
 }
