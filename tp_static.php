@@ -6,15 +6,15 @@ class Log
 {
 
     private static array $strorage;
-    private static int $count;
+    private static int $count = 0;
 
     public static function addLog(string $date){
-        $this->strorage[] = $date;
-        $this->count++;
+        self::$strorage[] = $date;
+        self::$count = self::$count + 1;
     }
 
     public static function getStorage(): array{
-        return $this->strorage;
+        return self::$strorage;
     }
     
 }
