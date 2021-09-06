@@ -27,7 +27,6 @@ class Button {
     }
 }
 
-
 $lampbutton = new Button(new Lamp);
 echo $lampbutton->switchDevice(); 
 echo $lampbutton->switchDevice();

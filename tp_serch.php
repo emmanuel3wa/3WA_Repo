@@ -19,12 +19,12 @@ function serchSeq(array $seq, array $ocu):int{
 
     foreach ($seq as $key => $value) {
 
-        if($index === $countOcu )
+        if ($index === $countOcu )
             return $key - $index;
 
         if ($value === $ocu[$index]){
             $index = $index + 1;
-            var_dump($index);
+           // var_dump($index);
         } else 
             $index = 0;
     }

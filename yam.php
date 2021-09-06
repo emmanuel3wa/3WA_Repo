@@ -126,4 +126,4 @@ class Yam{
 }
 
 $game = new Yam(new Arbitrator);
-$game->game(5);
+$game->game();
