@@ -15,6 +15,10 @@ class Lamp{
         $this->light->switchButton();
     }
 
+    public function getButtonState(){
+        return $this->isLampButtonTurnOn;
+    }
+
     public function __toString()
     {
         $status = $this->light->getState() ? "allumée" : "éteinte";
