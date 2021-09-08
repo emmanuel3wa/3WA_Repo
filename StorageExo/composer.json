@@ -1,0 +1,16 @@
+{
+    "name": "founyminibaby/storage-exo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "emmanuel3wa",
+            "email": "emmanuel.bebe@3wa.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "" : "src/"
+        }
+    }
+}
