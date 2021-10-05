@@ -1,0 +1,21 @@
+{
+    "name": "founyminibaby/exo_iterator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "emmanuel3wa",
+            "email": "emmanuel.bebe@3wa.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

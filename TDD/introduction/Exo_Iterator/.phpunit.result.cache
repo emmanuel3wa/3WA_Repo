@@ -1,0 +1,1 @@
+{"version":1,"defects":{"EvenTest::testEvenMax":5,"EvenTest::testEvenMin":4,"EvenTest::testEvenIsPair":4,"EvenTest::testEvenArgumentExeption":4},"times":{"EvenTest::testEvenMax":0,"EvenTest::testEvenMin":0.004,"EvenTest::testEvenIsPair":0.006,"EvenTest::testEvenArgumentExeption":0.002}}
