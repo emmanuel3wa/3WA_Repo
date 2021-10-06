@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Fibotest::testOne":4,"Fibotest::testTwo":5,"Fibotest::testFiboMax":3,"Fibotest::testNarcissiqueNumber":3},"times":{"Fibotest::testOne":0.005,"Fibotest::testTwo":0,"Fibotest::testGenerator":0.005,"Fibotest::testFiboAlgorythm":0,"Fibotest::testFiboMax":0,"Fibotest::testNarcissiqueNumber":0}}
